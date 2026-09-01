@@ -1,15 +1,32 @@
-# Jupyter Notebook checkpoints
+# Byte-compiled / optimized / ambient files
+__pycache__/
+*.py[cod]
+*.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints & autosaves
 .ipynb_checkpoints/
 */.ipynb_checkpoints/
 
-# Python cache & virtual environment
-__pycache__/
-*.pyc
-.venv/
-venv/
-
-# pykan auto-generated run artifacts
+# pykan auto-generated run artifacts & model state caches
 figures/
 notebooks/figures/
 model/
 notebooks/model/
+
+# PyTorch / ML weights & dataset archives
+*.pt
+*.pth
+*.pkl
+*.h5
+data/raw/
+
+# OS-generated metadata
+.DS_Store
+Thumbs.db
+ehthumbs.db
